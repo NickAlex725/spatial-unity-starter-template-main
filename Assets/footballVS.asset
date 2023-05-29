@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: footballVS
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":219.7353,"y":-370.0863},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-445.0,"y":-724.0},"guid":"7c714043-4f3b-4482-a4f8-53952a155dac","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{"interactable":null},"position":{"x":-177.0,"y":-464.0},"guid":"165cb703-5aad-45c7-9b6d-3b7a52449bbb","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.SpatialInteractableOnInteract","$id":"11"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":187.0,"y":-451.0},"guid":"be11c069-722e-4052-aec2-0e0c2d05b85c","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"13"},{"defaultValues":{"humanBone":{"$content":"RightHand","$type":"UnityEngine.HumanBodyBones"}},"position":{"x":-369.0,"y":-292.0},"guid":"cb1c1f37-a61c-4a17-82ec-bd208c430189","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.GetLocalAvatarBoneTransformNode","$id":"16"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-12.0,"y":-294.0},"guid":"47571b1c-919a-49f4-b2dd-3e625104ad09","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"18"},{"coroutine":false,"defaultValues":{},"position":{"x":-188.0,"y":-725.0},"guid":"707757b0-8d43-4d9a-8c02-f0b0e21a83b2","$version":"A","$type":"Unity.VisualScripting.Update"},{"defaultValues":{"force":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":457.0,"y":-449.0},"guid":"9b31858d-8557-4d59-9304-bf0695aa9593","$version":"A","$type":"SpatialSys.UnitySDK.VisualScripting.AddForceToLocalAvatarNode","$id":"23"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"60dfcbd2-b1ea-43aa-ab78-58dafedc271e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"23"},"destinationKey":"inputTrigger","guid":"20c2323f-c7ad-49b5-b98a-c88f565bbc4e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"avatarBoneTransform","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"45493812-1f49-4962-9493-4e8c5893880e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"2705045d-dcea-4b81-9c9a-bd8a03b4c07f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
